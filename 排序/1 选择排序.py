@@ -2,6 +2,7 @@
 
 """
 选择排序
+    减治
 """
 
 def Selection_Sort(arr):
@@ -16,40 +17,3 @@ def Selection_Sort(arr):
                 min = j
         arr[i], arr[min] = arr[min], arr[i]
     return arr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-"""
-堆排序
-3种：
-    
-    堆
-    堆排序
-
-"""
-
-
-def heapsort_use_heapq(iterable):
-    from heapq import heappush, heappop
-    items = []
-    for value in iterable:
-        heappush(items, value)
-    return [heappop(items) for i in range(len(items))]
-

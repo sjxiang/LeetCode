@@ -3,6 +3,7 @@
 
 """
 插入排序
+    减治
 """
 def insertion_sort(arr):
     # 分为已 、 未 排序
