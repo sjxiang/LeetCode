@@ -56,3 +56,17 @@ class Solution:
 
 
 
+import sys
+print(sys.prefix)
+
+import click
+print(click)
+
+"""
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\
+
+<module 'click' from 
+'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python36-32
+\\lib\\site-packages\\click\\__init__.py'>
+
+"""
